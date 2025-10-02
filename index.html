@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Navigator Agent — Plan Card Demo</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Navigator Agent</h1>
+    <p class="sub">Compliance-first plan card demo (mocked)</p>
+  </header>
+
+  <section class="controls">
+    <label>Account ID <input id="accountId" value="acme-123" /></label>
+    <label>Lead ID <input id="leadId" value="lead-789" /></label>
+    <label>Seat ID <input id="seatId" value="seat-42" /></label>
+    <button id="genBtn">Generate Plan</button>
+  </section>
+
+  <section id="output"></section>
+
+  <footer>
+    <small>Mock server on <code>/api/*</code> · <a href="/README.md" target="_blank">README</a></small>
+  </footer>
+
+  <script src="./app.js"></script>
+</body>
+</html>
